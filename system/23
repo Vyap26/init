@@ -1,0 +1,2 @@
+Graphic session - logout if you are logged in. Choose a new user, enter password.
+SSH - login <username>, then enter password, OR ssh <username>@<ip> and enter password when asked.

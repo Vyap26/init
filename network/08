@@ -1,0 +1,4 @@
+Use whois service from any Unix system, for example, whois <any domain name>. 
+Then search for Name server. 
+This is the host or hosts of the domain name.
+whois slash16.org | grep 'Name Server:' | awk '{print $3}'

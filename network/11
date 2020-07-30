@@ -1,0 +1,7 @@
+Run traceroute slash16.org.
+Line 1 is the local IP address.
+Line 2 is NAT router which is remapping the local IP to a public IP pointing to dc3, the host of our public IP.
+So here it is by lines again:
+- 1: Local IP.
+- 2: NAT IP.
+- 3: Public IP.

@@ -1,0 +1,9 @@
+#!/bin/bash
+tput setaf 6; echo "Here is the list of real system users"
+tput setaf 6; echo "Ensure you entered as root =)"
+tput setaf 7; getent passwd {1000..59999} | cut -d ":" -f1
+tput setaf 6; echo "Write User's name to give SuperUser rights"
+read name
+echo -e "$name\tALL=(ALL:ALL) ALL" >> /etc/sudoers
+tput setaf 1; echo "$name has SuperUser rights now"
+tput setaf 7:
